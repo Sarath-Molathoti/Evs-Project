@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sarathmolathoti.blogspot.news">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AmarUjalaActivity"></activity>
+        <activity android:name=".DbActivity" />
+        <activity android:name=".DjActivity" />
+        <activity android:name=".MathrubhumiActivity" />
+        <activity android:name=".KaumudiActivity" />
+        <activity android:name=".ManoramaActivity" />
+        <activity android:name=".DeccanActivity" />
+        <activity android:name=".ToiActivity" />
+        <activity android:name=".TheHinduActivity" />
+        <activity android:name=".AndhraJyothiActivity" />
+        <activity android:name=".EenaduActivity" />
+        <activity android:name=".SakshiActivity" />
+        <activity
+            android:name=".EnglishActivity"
+            android:parentActivityName=".SelectLanguageActivity" />
+        <activity
+            android:name=".MalayalamActivity"
+            android:parentActivityName=".SelectLanguageActivity" />
+        <activity
+            android:name=".HindiActivity"
+            android:parentActivityName=".SelectLanguageActivity" />
+        <activity
+            android:name=".TeluguActivity"
+            android:parentActivityName=".SelectLanguageActivity" />
+        <activity android:name=".SelectLanguageActivity" />
+        <activity android:name=".StartActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

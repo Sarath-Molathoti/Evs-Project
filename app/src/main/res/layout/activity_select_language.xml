@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SelectLanguageActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Language"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:textColor="#171718"
+        ></TextView>
+
+    <Button
+        android:id="@+id/telugu_btn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Telugu"
+        android:textColor="#E8E8F0"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_gravity="center"
+        android:background="#3D3DD5"
+        android:layout_marginTop="50dp"
+        ></Button>
+    <Button
+        android:id="@+id/english_btn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="English"
+        android:textColor="#E8E8F0"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_gravity="center"
+        android:background="#3D3DD5"
+        android:layout_marginTop="20dp"
+        ></Button>
+
+    <Button
+        android:id="@+id/malayalam_btn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Malayalam"
+        android:textColor="#E8E8F0"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_gravity="center"
+        android:background="#3D3DD5"
+        android:layout_marginTop="20dp"
+        ></Button>
+
+    <Button
+        android:id="@+id/hindi_btn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Hindi"
+        android:textColor="#E8E8F0"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_gravity="center"
+        android:background="#3D3DD5"
+        android:layout_marginTop="20dp"
+        ></Button>
+
+
+
+</LinearLayout>

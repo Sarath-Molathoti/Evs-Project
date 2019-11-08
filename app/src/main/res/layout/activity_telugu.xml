@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TeluguActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Paper"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:textColor="#171718"
+        ></TextView>
+
+    <Button
+        android:id="@+id/eenadu_btn"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:text="EENADU"
+        android:textColor="#E8E8F0"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_gravity="center"
+        android:background="#3D3DD5"
+        android:layout_marginTop="70dp"
+        ></Button>
+    <Button
+        android:id="@+id/sakshi_btn"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:text="Sakshi"
+        android:textColor="#E8E8F0"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_gravity="center"
+        android:background="#3D3DD5"
+        android:layout_marginTop="20dp"
+        ></Button>
+
+    <Button
+        android:id="@+id/andhra_jyothi_btn"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:text="Andhra Jyothi"
+        android:textColor="#E8E8F0"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_gravity="center"
+        android:background="#3D3DD5"
+        android:layout_marginTop="20dp"
+        ></Button>
+
+</LinearLayout>

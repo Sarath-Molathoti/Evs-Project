@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StartActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Welcome To News App"
+        tools:textSize="22sp"
+        android:textColor="#112"
+        android:layout_gravity="center"
+        android:layout_marginTop="320dp"/>
+
+    <Button
+        android:id="@+id/have_account"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="#edff3a12"
+        android:textStyle="bold"
+        android:textColor="#dbdbef"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Already have Account" />
+
+    <Button
+        android:id="@+id/start_reg_btn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="#e7e5cc"
+        android:textColor="#112"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Sign Up" />
+
+</LinearLayout>

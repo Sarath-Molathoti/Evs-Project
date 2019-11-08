@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "634018099953",
+    "firebase_url": "https://news-e451b.firebaseio.com",
+    "project_id": "news-e451b",
+    "storage_bucket": "news-e451b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634018099953:android:a9f5c6b29bfcfa03aaaf50",
+        "android_client_info": {
+          "package_name": "sarathmolathoti.blogspot.news"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "634018099953-g5tp7eqp62h2e1s4n0ij1vj9a7obuop9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sarathmolathoti.blogspot.news",
+            "certificate_hash": "c70a154b213a81fc7939f58afd810ecabcb6fb2c"
+          }
+        },
+        {
+          "client_id": "634018099953-0cvudite5nkfpg0r2uerjo12d5co8liu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7bdkFzZtQ21aLT3FJ23DP1xgvNYuezsg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "634018099953-0cvudite5nkfpg0r2uerjo12d5co8liu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
